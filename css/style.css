@@ -1,0 +1,235 @@
+/*For browsers that do not use html5*/
+/*consider converting pixels to ems*/
+/*Now the the style sheet is good change each page to comply with it. And clean up style sheet so no redundancies*/
+header, main, nav, footer, section, article, figure, figcaption,
+aside { display: block; }
+
+/*Making sure there isn't a blue border around linked images*/
+img
+{  border-style: none;
+}
+/*setting body styles*/
+body {
+	font-family:  Helvetica, sans-serif;
+	color: #707070;
+	font-size: 13px;
+}
+/*styles for the header which contains the logo and company name*/
+header {
+	padding-bottom: .625em;
+}
+header h1{
+	color: #5e80ac;
+	font-size: 1.75em;
+}
+header h2 {
+	font-style: italic;
+	font-size: 1em;
+	font-weight: normal;
+}
+header p {
+	text-align: right;
+}
+p {
+	line-height: 1.5;
+}
+/*set width of wrapper and center*/
+#wrapper {
+	max-width: 970px;
+	padding-top: 25px;
+	width: 80%;
+	margin: auto;
+}
+/*style the logo*/
+#logo {
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 15px;
+	border: none;
+}
+
+/*style the banner image*/
+#banner {
+	width: 100%;
+	display: block;
+	max-width: 970px;
+	margin: 20px auto;
+	}
+/*Allows for two column layout with absolute positioning*/
+main, footer, header { position: relative;}
+/*style the main section*/
+
+main {
+	float: left;
+}
+main h2 {
+	padding-top: 10px;
+	color: #404040;
+	font-size: 1.75em;
+}
+/*Styles for main left section*/
+#content { margin-bottom: 2em;}
+
+#content h3 {
+	margin-top: 0px;
+	background-color: #5e80ac;
+	color: #ffffff;
+	padding: 5px 10px;
+	font-weight: normal;
+	border-radius: 3px;
+}
+/*styles for right sidebar*/
+#sidebar img {
+	width: 20.75em;
+}
+#sidebar a {
+	line-height: 1.5;
+}
+#sidebar h3 {
+	background-color: #a6abae;
+	color: #ffffff;
+	padding: 5px 10px;
+	font-weight: normal;
+	border-radius: 3px;
+}
+/* MEDIA QUERIES to create two column layout on large screens*/
+@media screen and (min-width: 47.5em) {
+  #content {  margin-right: 22.5em; }
+
+	#sidebar { position: absolute; top: 0; right: 0; width: 20.75em; padding-bottom: 2em;}
+}
+
+/*styling the forms*/
+.dataform {
+	margin: 10px 0px;
+	font-weight: normal;
+}
+
+label {
+	font-weight: bold;
+	text-align:center;
+}
+
+input, select {
+    margin: 8px 0;
+    border-radius: 3px;
+    box-sizing: border-box;
+    width: 300px;
+}
+
+select {
+	/*border: none;*/
+	padding: 5px;
+	border-radius: 4px;
+}
+
+select:focus {
+	outline: none;
+}
+
+.helptext {
+	font-size: .75em;
+}
+input:focus {
+    border: 3px solid #9b3f6f;
+    outline: none;
+}
+input[type="submit"] {
+	background-color: #6F9B3F;
+	border: none;
+	color: #fff;
+	padding: 8px;
+	font-size: 1em;
+	border-radius: 4px;
+	margin-top: 20px;
+	width: 150px;
+}
+input[type="submit"]:hover {
+	background-color: #9b3f6f;
+
+}
+
+/*styles for buttons*/
+.mybutton {
+    display: block;
+    position: relative;
+    background-color: #6F9B3F;
+	border: none;
+	color: #fff;
+	text-align: center;
+	padding: 8px;
+	font-size: 1em;
+	border-radius: 4px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 20px 0;
+	max-width: 150px;
+}
+
+.mybutton:hover {
+	background-color: #9b3f6f;
+}
+
+/*styles for map*/
+#mapcontainer {
+	float: left;
+	width: 100%;
+}
+
+#map {
+	height: 500px;
+	margin-bottom: 20px;
+}
+/*style for map legend*/
+#legend {
+	background: #ffffff;
+	padding: 10px;
+	margin: 10px;
+}
+#legend h4 {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*styles for container for graphs*/
+#container {
+	height: 400px;
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+/*styles for the tables containing the data*/
+.datatable {
+	border-collapse: collapse;
+	margin:0px;
+}
+
+.datatable td, .datatable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.datatable tr:nth-child(odd){background-color: #EEF2F6;}
+
+.datatable tr:hover {background-color: #ddd;}
+
+.datatable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #5e80ac;
+    color: white;
+}
+/*styles for the footer*/
+footer {
+	text-align: center;
+	clear: both;
+	font-size: 10px;
+}
+
+a {
+	color: #3574e3;
+}
