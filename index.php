@@ -20,7 +20,7 @@
 				<div id="content">
 					<p>Use these tool to create maps and graphs of Charles River water quality data. Choose
 					one of the search types below and select the sites and parameters you are interested in. Let's get started!</p>
-					<p>This project uses data from <a href="http://www.crwa.org/field-science/monthly-monitoring">Charles River Watershed Associaton's volunteer monthly monitoring program</a>.</p>
+					<p>This project uses data from <a href="http://www.crwa.org/field-science/monthly-monitoring" target="_blank">Charles River Watershed Associaton's volunteer monthly monitoring program</a>.</p>
 <!--Map form begins-->
 					<form class="dataform" action="map.php" method="post">
 						<h3>Make a Map</h3>

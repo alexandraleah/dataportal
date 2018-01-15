@@ -77,8 +77,8 @@ echo <<<_END
 			<h2>Water Quality for $friendlydate</h2>
 			<main>
 				<div id="content">
-					<p>Below find a map and data table for the samples collected on $friendlydate. Additional information about the
-					sampling day can go here or more information about the data or map.</p>
+					<p>Below find a map and data table for the samples collected on $friendlydate. This project uses data from <a href="http://www.crwa.org/field-science/monthly-monitoring" target="blank">Charles River Watershed Associaton's volunteer monthly monitoring program</a>.
+					</p>
 					<a href="index.php" class="mybutton">Start a new search</a>
 					<h3>$title Map</h3>
 					<div id="mapcontainer">

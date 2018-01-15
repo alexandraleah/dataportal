@@ -96,7 +96,7 @@ echo <<<_END
 			<h2>Water quality data for $mysite </h2>
 			<main>
 				<div id="content">
-					<p>Some explanation text goes here. Needs to take up at least a line here. To explain the graph and the table and anything else.</p>
+				<p>Below find a map and data table for samples collected at $mysite in $monthName. This project uses data from <a href="http://www.crwa.org/field-science/monthly-monitoring">Charles River Watershed Associaton's volunteer monthly monitoring program</a>.</p>
 					<a href="index.php" class="mybutton">Start a new search</a>
 					<h3>Graph for $monthName sampling</h3>
 <!--Create container to display chart-->
